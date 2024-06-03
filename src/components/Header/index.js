@@ -15,8 +15,4 @@ const Header = () => {
   );
 };
 
-
 export default Header;
-
-//<span>Contato:&nbsp;&nbsp;(11)9-1449-9772</span>
-//<span>e-mail:&nbsp;&nbsp;jk-js@hotmail.com</span>

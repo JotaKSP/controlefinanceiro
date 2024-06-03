@@ -38,7 +38,7 @@ const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
           <C.Input value={desc} onChange={(e) => setDesc(e.target.value)} />
         </C.InputContent>
         <C.InputContent>
-          <C.Label>Valor</C.Label>
+          <C.Label>R$</C.Label>
           <C.Input
             value={amount}
             type="number"

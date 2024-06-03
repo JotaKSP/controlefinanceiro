@@ -34,6 +34,7 @@ export const InputContent = styled.div`
   flex-direction: column;
   font-size: 17px;
   color: blue;
+  
 `;
 //Meio Letras
 export const RadioGroup = styled.div`
