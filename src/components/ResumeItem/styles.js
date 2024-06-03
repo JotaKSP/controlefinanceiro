@@ -30,7 +30,7 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 80%;
+  width: 50%;
   gap: 10px;
   margin: 1px auto;
   text-align: center;
@@ -41,15 +41,18 @@ export const Header = styled.header`
     height: 25px;
   }
 `;
-//Entrada - saída - Total
+//Tamanho = Entrada - saída - Total
 export const HeaderTitle = styled.p`
-  font-size: 20px;
+ font-size: 20px;
+ padding-top: 0px ;
+ height: 25px;
 
 `;
 // Valor R$
 export const Total = styled.span`
   font-size: 30px;
   font-weight: bold;
+
 
 `;
 
