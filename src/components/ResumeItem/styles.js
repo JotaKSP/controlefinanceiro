@@ -32,7 +32,7 @@ export const Header = styled.header`
   justify-content: space-around;
   width: 50%;
   gap: 10px;
-  margin: 1px auto;
+  margin: 0px auto;
   text-align: center;
   
 //Color-Setas
@@ -45,7 +45,7 @@ export const Header = styled.header`
 export const HeaderTitle = styled.p`
  font-size: 20px;
  padding-top: 0px ;
- height: 25px;
+ height: 22px;
 
 `;
 // Valor R$
