@@ -7,12 +7,13 @@ export const Header = styled.h1`
   padding: 0;
   text-align: center;
   background: teal;
-  font-size: 27px;
-  width: 98%;
+  font-size: 35px;
+  width: 100%;
   text-align: center;
+  padding-top: 10px;
 
   // e-mail - Tel.
-  span {font-size: 14px;
+  span {font-size: 16px;
         color: black;} 
 
 `;
@@ -20,6 +21,7 @@ export const Header = styled.h1`
 export const Title = styled.div`
   color: yellow;
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
   
 `;
 
