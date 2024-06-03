@@ -9,12 +9,17 @@ export const Header = styled.h1`
   background: teal;
   font-size: 35px;
   width: 100%;
+  height: 80px;
   text-align: center;
   padding-top: 10px;
+  padding-bottom: 7px;
 
+  ;
   // e-mail - Tel.
-  span {font-size: 16px;
-        color: black;} 
+  p {font-size: 16px;
+        color: black
+        
+        }       
 
 `;
 // Controle Financeiro
@@ -22,7 +27,7 @@ export const Title = styled.div`
   color: yellow;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
-  
+
 `;
 
 

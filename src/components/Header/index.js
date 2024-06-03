@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <C.Container>
       <C.Header>
-    
-        <C.Title>Controle Financeiro</C.Title>
-        <span>Contribuição&nbsp;PIX&nbsp;&nbsp;e-mail:&nbsp;&nbsp;jk-js@hotmail.com</span>
       
+        <C.Title>Controle Financeiro</C.Title>
+        <p>Contribuição&nbsp;PIX-&nbsp;email:&nbsp;jk-js@hotmail.com</p>
+        
       </C.Header>
     </C.Container>
    
