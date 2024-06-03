@@ -4,13 +4,10 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: darkturquoise;
+  background-color: lightseagreen;
   border-radius: 5px;
+  padding: 5px 15px;
   width: 30%;
-  padding:  15px;
-  padding-top: 0px;
-  padding-bottom: 0px;
- 
 
   @media (max-width: 750px) {
     width: 20%;
@@ -20,7 +17,7 @@ export const Container = styled.div`
     }
 
     span {
-      font-size: 2px;
+      font-size: 20px;
     }
 
     svg {
@@ -33,22 +30,26 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 60%;
+  width: 80%;
   gap: 10px;
-
+  margin: 1px auto;
+  text-align: center;
+  
 //Color-Setas
   svg {
-    width: 28px;
-    height: 28px;
+    width: 25px;
+    height: 25px;
   }
 `;
 //Entrada - saída - Total
 export const HeaderTitle = styled.p`
-  font-size: 25px;
+  font-size: 20px;
+
 `;
 // Valor R$
 export const Total = styled.span`
   font-size: 30px;
   font-weight: bold;
+
 `;
 

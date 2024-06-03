@@ -5,18 +5,22 @@ export const Container = styled.div``;
 export const Header = styled.h1`
   margin: 0;
   padding: 0;
-  height: 100px;
   text-align: center;
   background: teal;
-  font-size: 30px;
+  font-size: 27px;
+  width: 98%;
+  text-align: center;
 
-  span {font-size: 18px;
-        color: black;      
-  }
+  // e-mail - Tel.
+  span {font-size: 14px;
+        color: black;} 
+
 `;
+// Controle Financeiro
 export const Title = styled.div`
-  color: white;
-  padding-top: 10px;
+  color: yellow;
+  text-align: center;
+  
 `;
 
 
