@@ -21,6 +21,7 @@ export const Container = styled.div`
 export const Label = styled.label``;;
 // Meio Input
 export const Input = styled.input`
+  text-align: center;
   outline: none;
   border-radius: 5px;
   padding: 5px 10px;
