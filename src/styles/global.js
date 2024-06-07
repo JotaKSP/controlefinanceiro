@@ -7,6 +7,7 @@ const Global = createGlobalStyle`
     padding: 0;
     font-family: 'Poppins', Sans-Serif;
     background-color: lightgray;
+  
   }
 `;
 

@@ -3,14 +3,12 @@ import styled from "styled-components";
 export const Table = styled.table`
   width: 100%;
   background-color: lightseagreen;
-  padding: 0px;
   box-shadow: 0px 0px 5px #ccc;
   border-radius: 5px;
   max-width: 1120px;
   margin: 0px auto;
   font-weight: bold;
   font-size: 15px;
-  padding-top: 0px;
   
 `;
 
@@ -21,6 +19,7 @@ export const Tbody = styled.tbody``;
 export const Tr = styled.tr``;
 
 export const Th = styled.th`
+
   border-bottom: inset;
   font-size: 18px;
   color: blue;

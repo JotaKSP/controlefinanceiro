@@ -9,9 +9,11 @@ export const Container = styled.div`
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
-  padding: 10px 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
   text-align: center;
-  gap: 5px;
+  gap: 0px;
   
   @media (max-width: 750px) {
     display: grid;
@@ -23,11 +25,11 @@ export const Input = styled.input`
   text-align: center;
   outline: none;
   border-radius: 5px;
-  
   font-size: 17px;
   font-weight: bold;
-  border: 1px solid #ccc;
+  border: 2px solid black;
   background-color: beige;
+  padding: 5px;
   
 `;
 //Meio Letras
@@ -45,13 +47,14 @@ export const RadioGroup = styled.div`
   color: black;
   font-size: 20px;
   font-weight: bold;
-
+  
  //Espaçamento meio
   input {
     margin-left: 12px;
     margin-right: 12px;
     accent-color: black;
     margin-top: 0;
+   
   }
 `;
 export const Table = styled.table`
@@ -61,6 +64,7 @@ export const Table = styled.table`
   border-radius: 5px;
   max-width: 1120px;
   margin: 20px auto;
+  
 `;
 //Botão
 export const Button = styled.button`
@@ -68,7 +72,9 @@ export const Button = styled.button`
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 18px;
   color: black;
+  border: 2px solid black;
   font-weight: bold;
   background-color: blanchedalmond;
   
