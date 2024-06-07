@@ -30,19 +30,19 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 20px;
+  gap: 10px;
   margin: 0 auto;
   text-align: center;
 
 //Tamanho-Setas
   svg {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
   }
 `;
 //Tamanho = Entrada - saída - Total
 export const HeaderTitle = styled.p`
- font-size: 20px;
+ font-size: 0px;
  font-weight: bold;
  margin: 10px auto;
  height: 24px;

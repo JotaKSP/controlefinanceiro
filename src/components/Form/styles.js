@@ -34,28 +34,26 @@ export const Input = styled.input`
 export const InputContent = styled.div`
   display: flex;
   flex-direction: column;
-  font-size: 17px;
-  color: blue;
-  
+  font-size: 20px;
+  color: black;
 `;
 //Meio Letras
 export const RadioGroup = styled.div`
   display: flex;
   align-items: center;
-  color: blue;
-  
+  color: black;
+  font-size: 20px;
+
  //Espaçamento meio
   input {
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
     accent-color: black;
     margin-top: 0;
-   
   }
 `;
 export const Table = styled.table`
   width: 100%;
-  background-color: #fff;
   padding: 20px;
   box-shadow: 0px 0px 5px #ccc;
   border-radius: 5px;
@@ -64,13 +62,14 @@ export const Table = styled.table`
 `;
 //Botão
 export const Button = styled.button`
-  padding: 10px 15px;
+  padding: 10px 30px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   color: black;
   font-weight: bold;
   background-color: blanchedalmond;
+  
  
 `;
 
