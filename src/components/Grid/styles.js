@@ -3,15 +3,15 @@ import styled from "styled-components";
 export const Table = styled.table`
   width: 100%;
   background-color: lightseagreen;
-  padding: 20px;
+  padding: 3px;
   box-shadow: 0px 0px 5px #ccc;
   border-radius: 5px;
   max-width: 1120px;
-  margin: 20px auto;
+  margin: 0px auto;
   font-weight: bold;
   font-size: 15px;
-  margin: 5px auto;
-
+  padding-top: 0px;
+  
 `;
 
 export const Thead = styled.thead``;
@@ -22,7 +22,6 @@ export const Tr = styled.tr``;
 
 export const Th = styled.th`
   border-bottom: inset;
-  padding-bottom: 2px;
   font-size: 18px;
   color: blue;
   text-align: ${(props) => (props.alignCenter ? "center" : "start")};
