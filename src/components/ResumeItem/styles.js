@@ -46,7 +46,7 @@ export const Header = styled.header`
 export const HeaderTitle = styled.p`
  font-size: 25px;
  margin: 10px auto;
- height: 32px;
+ height: 15px;
 
 `;
 // Valor R$
