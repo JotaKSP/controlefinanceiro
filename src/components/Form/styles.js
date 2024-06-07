@@ -10,8 +10,8 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-around;
   padding: 10px 10px;
-  gap: 20px;
   text-align: center;
+  gap: 5px;
   
   @media (max-width: 750px) {
     display: grid;
@@ -23,7 +23,7 @@ export const Input = styled.input`
   text-align: center;
   outline: none;
   border-radius: 5px;
-  padding: 4px 0px;
+  
   font-size: 17px;
   font-weight: bold;
   border: 1px solid #ccc;
