@@ -36,6 +36,7 @@ export const InputContent = styled.div`
   flex-direction: column;
   font-size: 20px;
   color: black;
+  font-weight: bold ;
 `;
 //Meio Letras
 export const RadioGroup = styled.div`
@@ -43,6 +44,7 @@ export const RadioGroup = styled.div`
   align-items: center;
   color: black;
   font-size: 20px;
+  font-weight: bold;
 
  //Espaçamento meio
   input {
