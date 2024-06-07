@@ -16,7 +16,7 @@ export const Header = styled.h1`
 
   ;
   // e-mail - Tel.
-  p {font-size: 16px;
+  p {font-size: 15px;
         color: black;
         margin: 10px auto;
         
