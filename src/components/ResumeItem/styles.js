@@ -7,7 +7,7 @@ export const Container = styled.div`
   align-items: center;
   background-color: lightseagreen;
   border-radius: 5px;
-  padding: 0 16px;
+  padding: 0 17px;
   width: 30%;
 
   @media (max-width: 750px) {
@@ -44,9 +44,9 @@ export const Header = styled.header`
 `;
 //Tamanho = Entrada - saída - Total
 export const HeaderTitle = styled.p`
- font-size: 25px;
+ font-size: 24px;
  margin: 10px auto;
- height: 15px;
+ height: 25px;
 
 `;
 // Valor R$
