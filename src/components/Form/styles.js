@@ -9,8 +9,8 @@ export const Container = styled.div`
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
-  padding: 12px 0px;
-  gap: 10px;
+  padding: 10px 10px;
+  gap: 20px;
   text-align: center;
   
   @media (max-width: 750px) {
@@ -46,10 +46,11 @@ export const RadioGroup = styled.div`
   
  //Espaçamento meio
   input {
-    margin-left: 20px;
-    margin-right: 5px;
+    margin-left: 18px;
+    margin-right: 18px;
     accent-color: black;
     margin-top: 0;
+   
   }
 `;
 export const Table = styled.table`
@@ -60,7 +61,6 @@ export const Table = styled.table`
   border-radius: 5px;
   max-width: 1120px;
   margin: 20px auto;
- 
 `;
 //Botão
 export const Button = styled.button`

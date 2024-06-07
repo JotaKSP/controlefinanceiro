@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: center;
   background-color: lightseagreen;
   border-radius: 5px;
-  padding: 0 18px;
+  padding: 0 16px;
   width: 30%;
 
   @media (max-width: 750px) {
@@ -30,8 +30,7 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 50%;
-  gap: 10px;
+  gap: 20px;
   margin: 0 auto;
   text-align: center;
 
@@ -43,15 +42,17 @@ export const Header = styled.header`
 `;
 //Tamanho = Entrada - saída - Total
 export const HeaderTitle = styled.p`
- font-size: 24px;
+ font-size: 20px;
+ font-weight: bold;
  margin: 10px auto;
- height: 20px;
+ height: 24px;
 
 `;
 // Valor R$
 export const Total = styled.span`
   font-size: 30px;
   font-weight: bold;
+  align-items: center;
   
 `;
 
