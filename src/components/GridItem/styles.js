@@ -8,8 +8,8 @@ export const Td = styled.td`
   text-align: center;
 
   svg {
-    width: 16px;
-    height: 16px;
+    width: 19px;
+    height: 19px;
     
   }
 `;

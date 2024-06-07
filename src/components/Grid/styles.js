@@ -9,7 +9,6 @@ export const Table = styled.table`
   margin: 0px auto;
   font-weight: bold;
   font-size: 15px;
-  
 `;
 
 export const Thead = styled.thead``;
@@ -21,7 +20,7 @@ export const Tr = styled.tr``;
 export const Th = styled.th`
 
   border-bottom: inset;
-  font-size: 18px;
+  font-size: 19px;
   color: blue;
   text-align: ${(props) => (props.alignCenter ? "center" : "start")};
   width: ${(props) => (props.width ? props.width + "%" : "auto")};
