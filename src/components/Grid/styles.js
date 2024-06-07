@@ -9,6 +9,7 @@ export const Table = styled.table`
   margin: 0px auto;
   font-weight: bold;
   font-size: 15px;
+  
 `;
 
 export const Thead = styled.thead``;
@@ -19,6 +20,7 @@ export const Tr = styled.tr``;
 
 export const Th = styled.th`
 
+  text-align: center;
   border-bottom: inset;
   font-size: 19px;
   color: blue;

@@ -29,7 +29,7 @@ export const Input = styled.input`
   font-weight: bold;
   border: 2px solid black;
   background-color: beige;
-  padding: 5px;
+  padding: 4px;
   
 `;
 //Meio Letras
@@ -68,7 +68,7 @@ export const Table = styled.table`
 `;
 //Botão
 export const Button = styled.button`
-  padding: 10px 30px;
+  padding: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
