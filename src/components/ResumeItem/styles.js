@@ -11,7 +11,7 @@ export const Container = styled.div`
   width: 30%;
 
   @media (max-width: 750px) {
-    width: 20%;
+    width: 23%;
 
     p {
       font-size: 12px;
@@ -31,12 +31,12 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 55%;
+  width: 50%;
   gap: 10px;
   margin: 0 auto;
   text-align: center;
 
-//Color-Setas
+//Tamanho-Setas
   svg {
     width: 25px;
     height: 25px;
