@@ -50,7 +50,7 @@ export const HeaderTitle = styled.p`
 `;
 // Valor R$
 export const Total = styled.span`
-  font-size: 30px;
+  font-size: 33px;
   font-weight: bold;
   align-items: center;
   
