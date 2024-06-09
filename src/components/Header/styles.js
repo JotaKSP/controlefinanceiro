@@ -9,16 +9,16 @@ export const Header = styled.h1`
   background: teal;
   font-size: 35px;
   width: 100%;
-  height: 80px;
+  height: 60px;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 7px;
   padding-bottom: 7px;
 
   ;
   // e-mail - Tel.
   p {font-size: 15px;
         color: black;
-        margin: 10px auto;
+        margin: 2px auto;
         
         }       
 

@@ -10,7 +10,7 @@ export const Container = styled.div`
   width: 30%;
 
   @media (max-width: 750px) {
-    width: 23%;
+    width: 24%;
 
     p {
       font-size: 12px;

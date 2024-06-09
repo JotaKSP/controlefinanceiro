@@ -50,8 +50,8 @@ export const RadioGroup = styled.div`
   
  //Espaçamento meio
   input {
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 13px;
+    margin-right: 13px;
     accent-color: black;
     margin-top: 0;
    
@@ -68,7 +68,8 @@ export const Table = styled.table`
 `;
 //Botão
 export const Button = styled.button`
-  padding: 10px;
+  padding: 8px;
+  margin: 4px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
