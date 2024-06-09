@@ -44,7 +44,7 @@ export const Header = styled.header`
 export const HeaderTitle = styled.p`
  font-size: 0px;
  font-weight: bold;
- margin: 10px auto;
+ margin: 12px auto;
  height: 24px;
 
 `;
@@ -53,6 +53,6 @@ export const Total = styled.span`
   font-size: 33px;
   font-weight: bold;
   align-items: center;
-  
+
 `;
 
