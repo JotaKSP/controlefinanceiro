@@ -13,7 +13,7 @@ export const Container = styled.div`
     width: 24%;
 
     p {
-      font-size: 12px;
+      font-size: 18px;
     }
 
     span {
@@ -44,7 +44,7 @@ export const Header = styled.header`
 export const HeaderTitle = styled.p`
  font-size: 0px;
  font-weight: bold;
- margin: 12px auto;
+ margin: 10px auto;
  height: 24px;
 
 `;

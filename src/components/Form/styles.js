@@ -2,15 +2,15 @@ import styled from "styled-components";
 //Meio
 export const Container = styled.div`
   max-width: 1120px;
-  margin: 5px auto;
+  margin: 4px auto;
   width: 100%;
   background-color: lightseagreen;
   box-shadow: 0px 0px 5px #ccc;
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   text-align: center;
   gap: 0px;
@@ -69,7 +69,7 @@ export const Table = styled.table`
 //Botão
 export const Button = styled.button`
   padding: 8px;
-  margin: 4px;
+  margin: 1px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
