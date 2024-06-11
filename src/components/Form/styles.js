@@ -29,7 +29,7 @@ export const Input = styled.input`
   font-weight: bold;
   border: 2px solid black;
   background-color: beige;
-  padding: 4px;
+  padding: 5px;
   
 `;
 //Meio Letras
