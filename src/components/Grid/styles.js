@@ -25,7 +25,7 @@ export const Th = styled.th`
   text-align: center;
   border-bottom: inset;
   border-color: #ccc;
-  font-size: 18px;
+  font-size: 17px;
   color: blue;
   text-align: ${(props) => (props.alignCenter ? "center" : "start")};
   width: ${(props) => (props.width ? props.width + "%" : "auto")};
