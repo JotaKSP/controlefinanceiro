@@ -38,16 +38,16 @@ export const InputContent = styled.div`
   font-size: 20px;
   color: black;
   font-weight: bold ;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  margin-top: -7px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: -8px;
 `;
-//Meio Letras
+// Entrada - Saida - Meio
 export const RadioGroup = styled.div`
   display: flex;
   align-items: center;
   color: black;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   
  //Espaçamento meio
@@ -75,12 +75,11 @@ export const Button = styled.button`
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 17px;
   color: black;
   border: 2px solid black;
   font-weight: bold;
   background-color: blanchedalmond;
   
- 
 `;
 

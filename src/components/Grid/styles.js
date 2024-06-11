@@ -10,7 +10,6 @@ export const Table = styled.table`
   margin: 0px auto;
   font-weight: bold;
   font-size: 15px;
-  padding-right: 8px;
 
 `;
 
