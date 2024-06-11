@@ -29,16 +29,19 @@ export const Input = styled.input`
   font-weight: bold;
   border: 2px solid black;
   background-color: beige;
-  padding: 5px;
+  padding: 4px 0px;
   
 `;
 //Meio Letras
 export const InputContent = styled.div`
   display: flex;
   flex-direction: column;
-  font-size: 20px;
+  font-size: 21px;
   color: black;
   font-weight: bold ;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: -5px;
 `;
 //Meio Letras
 export const RadioGroup = styled.div`
