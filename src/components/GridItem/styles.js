@@ -9,7 +9,7 @@ export const Td = styled.td`
   
 
   svg {
-    width: 19px;
-    height: 19px;
+    width: 18px;
+    height: 18px;
   }
 `;

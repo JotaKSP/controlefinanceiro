@@ -24,18 +24,18 @@ export const Input = styled.input`
   text-align: center;
   outline: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
   border: 2px solid black;
   background-color: beige;
   padding: 6px;
 
 `;
-//Meio Letras
+// Descirção - Meio Letras
 export const InputContent = styled.div`
   display: flex;
   flex-direction: column;
-  font-size: 21px;
+  font-size: 20px;
   color: black;
   font-weight: bold ;
   padding-top: 3px;
