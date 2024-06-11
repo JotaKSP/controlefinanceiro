@@ -11,6 +11,5 @@ export const Td = styled.td`
   svg {
     width: 19px;
     height: 19px;
-    
   }
 `;
