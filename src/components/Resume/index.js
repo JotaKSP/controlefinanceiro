@@ -4,15 +4,16 @@ import * as C from "./styles";
 import {
   FaRegArrowAltCircleUp,
   FaRegArrowAltCircleDown,
-  FaDollarSign,
-
+  FaDollarSign, 
+  
 } from "react-icons/fa";
+
 
 const Resume = ({ income, expense, total }) => {
   return (
 
     <C.Container>
-       
+      
       <ResumeItem
         title="Entradas"
         Icon={FaRegArrowAltCircleUp}
@@ -20,7 +21,7 @@ const Resume = ({ income, expense, total }) => {
       />      
       <ResumeItem
         title="Saídas"
-        Icon={FaRegArrowAltCircleDown}
+        Icon={FaRegArrowAltCircleDown}  
         value={expense} 
       />
       <ResumeItem
@@ -37,4 +38,7 @@ export default Resume;
 
 
 
+//import { FaThumbsDown, FaThumbsUp } from 'react-icons/fa';
+//< size={30} style={{ fill: 'black' }} />
 
+<FaRegArrowAltCircleUp size={30}style={{fill:'red'}}/>

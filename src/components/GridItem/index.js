@@ -16,7 +16,7 @@ const GridItem = ({ item, onDelete }) => {
         {item.expense ? (
           <FaRegArrowAltCircleDown color="red" />
         ) : (
-          <FaRegArrowAltCircleUp color="green" />
+          <FaRegArrowAltCircleUp color="Lime" />
         )}
       </C.Td>
       <C.Td alignCenter>
