@@ -2,15 +2,15 @@ import styled from "styled-components";
 //Meio
 export const Container = styled.div`
   max-width: 1120px;
-  margin: 4px auto;
+  margin: 2px auto;
   width: 100%;
   background-color: lightseagreen;
   box-shadow: 0px 0px 5px #ccc;
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
   gap: 0px;
   
@@ -24,11 +24,11 @@ export const Input = styled.input`
   text-align: center;
   outline: none;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   border: 2px solid black;
   background-color: beige;
-  padding: 6px;
+  padding: 4px;
 
 `;
 // Descirção - Meio Letras
