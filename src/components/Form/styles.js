@@ -9,8 +9,8 @@ export const Container = styled.div`
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
 
   text-align: center;
   gap: 0px;
@@ -25,12 +25,12 @@ export const Input = styled.input`
   text-align: center;
   outline: none;
   border-radius: 5px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
   border: 2px solid black;
   background-color: beige;
-  padding: 4px 0px;
-  
+  padding: 6px;
+
 `;
 //Meio Letras
 export const InputContent = styled.div`
@@ -41,7 +41,7 @@ export const InputContent = styled.div`
   font-weight: bold ;
   padding-top: 3px;
   padding-bottom: 3px;
-  margin-top: -5px;
+  margin-top: -7px;
 `;
 //Meio Letras
 export const RadioGroup = styled.div`
