@@ -2,34 +2,20 @@ import React from "react";
 import ResumeItem from "../ResumeItem";
 import * as C from "./styles";
 
-import {
-  FaRegArrowAltCircleUp,
-  FaRegArrowAltCircleDown,
-  FaDollarSign
-  
-} from "react-icons/fa";
-
-
-const Resume = ({ income, expense, total }) => {
+const Resume = ({income, expense, total }) => {
   return (
 
     <C.Container>
-      
-      <ResumeItem
-        title="Entradas"
-        Icon={FaRegArrowAltCircleUp}
-        value={income}
-      />      
-      <ResumeItem
-        title="Saídas"
-        Icon={FaRegArrowAltCircleDown}  
-        value={expense} 
-      />
-      <ResumeItem
-       title="Total" 
-       Icon={FaDollarSign}
-       value={total} />
+    <h1><i class="icon bi-arrow-up-circle-fill"></i></h1>
+    <ResumeItem income={income} />
+    
+    <h1><i class="icon1 bi-arrow-down-circle-fill"></i></h1>
+    <ResumeItem expense={expense} />
+    
+    <h1><i class="icon2 bi-currency-dollar"></i></h1>
+    <ResumeItem total={total} />
 
+  
     </C.Container>
 
   );
@@ -37,3 +23,8 @@ const Resume = ({ income, expense, total }) => {
 
 export default Resume;
 
+
+//<i class="bi-arrow-up-circle-fill"></i>
+
+//{item.expense ? (
+//<FaRegArrowAltCircleDown color="red" />

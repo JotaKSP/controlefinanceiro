@@ -25,11 +25,11 @@ const App = () => {
     const expense = amountExpense.reduce((acc, cur) => acc + cur, 0).toFixed(2);
     const income = amountIncome.reduce((acc, cur) => acc + cur, 0).toFixed(2);
 
-    const total = Math.abs(income - expense).toFixed(2);
+    const total = Math.ceil(income - expense).toFixed(2);
 
-    setIncome(`R$ ${income}`);
-    setExpense(`-R$ ${expense}`);
-    setTotal(`R$ ${total}`);
+    setIncome(`+ ${income}`);
+    setExpense(`- ${expense}`);
+    setTotal(`= ${total}`);
   }, [transactionsList]);
 
   const handleAdd = (transaction) => {
@@ -43,7 +43,12 @@ const App = () => {
   return (
     <>
       <Header />
-      <Resume income={income} expense={expense} total={total} />
+      
+      <Resume
+      income={income} 
+      expense={expense}
+      total={total} 
+                   />
       <Form
         handleAdd={handleAdd}
         transactionsList={transactionsList}

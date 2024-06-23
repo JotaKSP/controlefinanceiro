@@ -1,58 +1,40 @@
-// Cabeçalho
 import styled from "styled-components";
 export const Container = styled.div`
-  display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: lightseagreen;
+  align-items: center;
   border-radius: 5px;
-  padding: 0 16px;
+  margin-top: 0 auto;
+  padding-inline: 18px;
   width: 30%;
 
+  padding-top: 24px;
+  
   @media (max-width: 750px) {
     width: 24%;
-
-    p {
-      font-size: 18px;
-    }
-
-    span {
-      font-size: 20px;
-    }
-
-    svg {
-      display: none;
-    }
   }
 `;
-//Setas-Entrada - saída - Total
-export const Header = styled.header`
-  display: flex;
+//-Entrada  
+export const Header = styled.span`
   align-items: center;
-  justify-content: space-around;
-  gap: 10px;
-  margin: 0 auto;
-  text-align: center;
-
-//Tamanho-Setas
-  svg {
-    width: 30px;
-    height: 30px;
-  }
-`;
-//Tamanho = Entrada - saída - Total
-export const HeaderTitle = styled.p`
- font-size: 0px;
- font-weight: bold;
- margin: 10px auto;
- height: 24px;
-
-`;
-// Valor R$
-export const Total = styled.span`
-  font-size: 33px;
+  font-size: 29px;
   font-weight: bold;
-  align-items: center;
-
+  color: blue;
 `;
+// Saída 
+export const HeaderTitle = styled.span`
+align-items: center;
+ font-size: 29px;
+ font-weight: bold;
+ color: red;
+`;
+// Total 
+export const Total = styled.span`
+align-items: center;
+  font-size: 29px;
+  font-weight: bold;
+  color: black;
+`;
+
+
 
