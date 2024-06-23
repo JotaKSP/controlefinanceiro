@@ -1,10 +1,11 @@
 import React from "react";
 import ResumeItem from "../ResumeItem";
 import * as C from "./styles";
+
 import {
   FaRegArrowAltCircleUp,
   FaRegArrowAltCircleDown,
-  FaDollarSign, 
+  FaDollarSign
   
 } from "react-icons/fa";
 
@@ -36,9 +37,3 @@ const Resume = ({ income, expense, total }) => {
 
 export default Resume;
 
-
-
-//import { FaThumbsDown, FaThumbsUp } from 'react-icons/fa';
-//< size={30} style={{ fill: 'black' }} />
-
-<FaRegArrowAltCircleUp size={30}style={{fill:'red'}}/>
