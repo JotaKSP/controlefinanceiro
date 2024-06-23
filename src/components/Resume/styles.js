@@ -4,11 +4,12 @@ export const Container = styled.div`
 display: flex;
 justify-content: space-around;
 max-width: 1120px;
-width: 99%;
+width: 100%;
 height: 100px;
 margin: 0 auto;
 color: black;
 text-align: center;
+
 `;
 
 

@@ -30,6 +30,7 @@ const App = () => {
     setIncome(`+ ${income}`);
     setExpense(`- ${expense}`);
     setTotal(`= ${total}`);
+    
   }, [transactionsList]);
 
   const handleAdd = (transaction) => {

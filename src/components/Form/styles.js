@@ -4,15 +4,15 @@ export const Container = styled.div`
   max-width: 1120px;
   margin: 2px auto;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
   background-color: lightseagreen;
   box-shadow: 0px 0px 5px #ccc;
   border-radius: 5px;
-  display: flex;
-  justify-content: space-around;
+
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  gap: 0px;
   
   @media (max-width: 750px) {
     display: grid;
