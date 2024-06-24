@@ -5,7 +5,7 @@ flex-direction: column;
 justify-content: space-around;
 background-color: lightseagreen;
 width: 100%;
-padding-top: 28px;
+padding-top: 30px;
 width: 33%;
 
 `;
@@ -18,7 +18,6 @@ export const Header = styled.span`
 `;
 // Saída 
 export const HeaderTitle = styled.span`
-
  font-size: 25px;
  font-weight: bold;
  color: red;
@@ -26,7 +25,6 @@ export const HeaderTitle = styled.span`
 `;
 // Total 
 export const Total = styled.span`
-
   font-size: 25px;
   font-weight: bold;
   color: black;
