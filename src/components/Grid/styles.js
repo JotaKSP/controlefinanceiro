@@ -21,7 +21,6 @@ export const Tr = styled.tr``;
 
 export const Th = styled.th`
   
-  text-align: center;
   border-bottom: inset;
   border-color: #ccc;
   font-size: 16px;

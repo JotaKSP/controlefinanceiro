@@ -10,7 +10,7 @@ export const Container = styled.div`
   box-shadow: 0px 0px 5px #ccc;
   border-radius: 5px;
 
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 10px;
   text-align: center;
   
