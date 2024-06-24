@@ -27,9 +27,9 @@ const App = () => {
 
     const total = Math.ceil(income - expense).toFixed(2);
 
-    setIncome(`+ ${income}`);
-    setExpense(`- ${expense}`);
-    setTotal(`= ${total}`);
+    setIncome(`${income}`);
+    setExpense(`${expense}`);
+    setTotal(`${total}`);
     
   }, [transactionsList]);
 

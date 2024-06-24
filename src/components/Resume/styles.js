@@ -5,7 +5,7 @@ display: flex;
 justify-content: space-around;
 max-width: 1120px;
 width: 100%;
-height: 100px;
+height: 75px;
 margin: 0 auto;
 color: black;
 text-align: center;

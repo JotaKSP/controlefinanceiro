@@ -5,13 +5,13 @@ flex-direction: column;
 justify-content: space-around;
 background-color: lightseagreen;
 width: 100%;
-padding-top: 23px;
+padding-top: 28px;
 width: 33%;
 
 `;
 //-Entrada  
 export const Header = styled.span`
-  font-size: 28px;
+  font-size: 25px;
   font-weight: bold;
   color: blue;
 
@@ -19,7 +19,7 @@ export const Header = styled.span`
 // Saída 
 export const HeaderTitle = styled.span`
 
- font-size: 28px;
+ font-size: 25px;
  font-weight: bold;
  color: red;
  
@@ -27,7 +27,7 @@ export const HeaderTitle = styled.span`
 // Total 
 export const Total = styled.span`
 
-  font-size: 28px;
+  font-size: 25px;
   font-weight: bold;
   color: black;
   
