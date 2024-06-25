@@ -11,21 +11,21 @@ width: 33%;
 `;
 //-Entrada  
 export const Header = styled.span`
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
   color: blue;
 
 `;
 // Saída 
 export const HeaderTitle = styled.span`
- font-size: 25px;
+ font-size: 23px;
  font-weight: bold;
  color: red;
  
 `;
 // Total 
 export const Total = styled.span`
-  font-size: 25px;
+  font-size: 24px;
   font-weight: bold;
   color: black;
   

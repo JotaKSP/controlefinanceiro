@@ -20,16 +20,17 @@ const App = () => {
 
     const amountIncome = transactionsList
       .filter((item) => !item.expense)
-      .map((transaction) => Number(transaction.amount));
+      .map((transaction) => Number(transaction.amount)); 
 
     const expense = amountExpense.reduce((acc, cur) => acc + cur, 0).toFixed(2);
     const income = amountIncome.reduce((acc, cur) => acc + cur, 0).toFixed(2);
+    
+    const total = Math.abs (income - expense).toLocaleString('pt-br', {minimumFractionDigits: 2});
 
-    const total = Math.ceil(income - expense).toFixed(2);
-
+ 
     setIncome(`${income}`);
     setExpense(`${expense}`);
-    setTotal(`${total}`);
+    setTotal(`${Number(income) < Number(expense) ? "-" : "" } ${total}`);
     
   }, [transactionsList]);
 
