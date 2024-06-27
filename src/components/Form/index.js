@@ -52,7 +52,7 @@ const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
             defaultChecked
             name="group1"
             onChange={() => setExpense(!isExpense)}
-          />
+            />
           <C.Label htmlFor="rIncome">Entrada</C.Label>
           <C.Input
             type="radio"
